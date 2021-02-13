@@ -1,10 +1,12 @@
 import "./styles.css";
+import Row from "./Row";
+import requests from "./requests";
 
 function App() {
   return (
     <div className="App">
       <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <Row title="What's trending" fetchUrl={requests.fetchTrending} />
     </div>
   );
 }
