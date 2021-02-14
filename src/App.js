@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <h1>Hello CodeSandbox</h1>
       <Row title="What's trending" fetchUrl={requests.fetchTrending} />
+      <Row title="Top rated" fetchUrl={requests.fetchTopRated} />
     </div>
   );
 }
