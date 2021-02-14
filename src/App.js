@@ -1,12 +1,17 @@
 import "./styles.css";
 import Row from "./Row";
 import requests from "./requests";
+import Navbar from "./Navbar";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <Row title="What's trending" fetchUrl={requests.fetchTrending} />
+      <Navbar />
+      <Row
+        title="What's trending"
+        fetchUrl={requests.fetchTrending}
+        isLargeRow
+      />
       <Row title="Top rated" fetchUrl={requests.fetchTopRated} />
     </div>
   );
