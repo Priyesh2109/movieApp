@@ -13,6 +13,8 @@ function App() {
         isLargeRow
       />
       <Row title="Top rated" fetchUrl={requests.fetchTopRated} />
+
+      <Row title="Documentaries" fetchUrl={requests.fetchDocumentaries} />
     </div>
   );
 }

@@ -6,7 +6,7 @@ function Navbar() {
     <div className="nav">
       <img
         className="navLogo"
-        src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80"
+        src="https://whatson.ae/wp-content/themes/whatson-grow/images/wo-dubai.png"
         alt="Netflix Logo"
       />
       <img
