@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./CSS/Row.css";
 import axios from "./axios";
-import YouTube from "react-youtube";
 
 const base_url = "https://image.tmdb.org/t/p/original/";
 
@@ -26,12 +25,6 @@ function Row({ title, fetchUrl, isLargeRow }) {
       autoplay: 1
     }
   };
-  const handleClick = (movie) => {
-    if (trailerUrl) {
-      setTrailerUrl("");
-    } else {
-    }
-  };
 
   return (
     <div className="row">
@@ -49,7 +42,6 @@ function Row({ title, fetchUrl, isLargeRow }) {
           />
         ))}
       </div>
-      {trailerUrl && <YouTube videoId={trailerUrl} opts={opts} />}
     </div>
   );
 }

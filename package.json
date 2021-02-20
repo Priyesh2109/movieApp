@@ -6,7 +6,6 @@
   "main": "src/index.js",
   "dependencies": {
     "axios": "0.21.1",
-    "movie-trailer": "2.1.0",
     "prettier": "2.2.1",
     "react": "17.0.1",
     "react-dom": "17.0.1",
