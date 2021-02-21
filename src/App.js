@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+
       <Row
         title="What's trending"
         fetchUrl={requests.fetchTrending}
