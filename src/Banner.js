@@ -18,6 +18,8 @@ function Banner() {
     fetchData();
   }, []);
 
+  console.log(movie);
+
   return (
     <header
       className="banner"
@@ -32,7 +34,7 @@ function Banner() {
           {movie?.title || movie?.name || movie?.original_name}
         </h1>
 
-        <h1 className="banner_rating"> rating {movie?.vote_average}</h1>
+        <h1 className="banner_rating"> Rating {movie?.vote_average}/10</h1>
       </div>
     </header>
   );

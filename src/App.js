@@ -11,6 +11,7 @@ function App() {
       <Navbar />
       <Row
         title="What's trending"
+        className="d"
         fetchUrl={requests.fetchTrending}
         isLargeRow
       />
