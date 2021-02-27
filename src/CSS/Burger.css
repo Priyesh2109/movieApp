@@ -1,0 +1,50 @@
+.bm-item {
+  display: table-row;
+  text-decoration: none;
+  line-height: 7.5em;
+  margin-bottom: 10px;
+  color: white;
+  transition: color 0.2s;
+}
+
+.bm-item:hover {
+  background-color: lightcoral;
+}
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 110px;
+  top: 15px;
+}
+
+.bm-burger-bars {
+  background: white;
+  font-weight: 100;
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background: coral;
+}
+
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+.bm-item-list {
+  color: #b8b7ad;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}

@@ -3,10 +3,12 @@ import Row from "./Row";
 import requests from "./requests";
 import Navbar from "./Navbar";
 import Banner from "./Banner";
+import BurgerMenu from "./Burger";
 
 function App() {
   return (
     <div className="App">
+      <BurgerMenu />
       <Banner />
       <Navbar />
       <Row
