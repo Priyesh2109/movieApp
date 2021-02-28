@@ -6,23 +6,30 @@
   color: white;
   transition: color 0.2s;
 }
-
-.bm-item:hover {
-  background-color: lightcoral;
+.header_logo {
+  height: 35px;
+  margin-left: 47px;
+  object-fit: contain;
+}
+.break {
+  height: 2px;
+  border: 0;
+  background-color: lightgray;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 /* Position and sizing of burger button */
 .bm-burger-button {
   position: fixed;
   width: 36px;
-  height: 30px;
+  height: 25px;
   left: 110px;
   top: 15px;
 }
 
 .bm-burger-bars {
   background: white;
-  font-weight: 100;
 }
 
 .bm-cross-button {
@@ -31,11 +38,11 @@
 }
 
 .bm-cross {
-  background: coral;
+  background: white;
 }
 
 .bm-menu {
-  background: #373a47;
+  background: black;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
 }

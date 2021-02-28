@@ -5,6 +5,13 @@ import "./CSS/Burger.css";
 function BurgerMenu() {
   return (
     <Burger>
+      <img
+        className="header_logo"
+        src="https://whatson.ae/wp-content/themes/whatson-grow/images/wo-dubai.png"
+        alt=""
+      />
+      <hr className="break" />
+
       <a className="menu-item" href="/burgers">
         Action Movies
       </a>
